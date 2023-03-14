@@ -38,9 +38,9 @@ function WalletSelector({ Component, pageProps }: AppProps) {
   return (
     <WalletProvider wallets={wallets} autoConnect={false}>
       <ModalContext.Provider value={modals}>
-        <div className="px-8">
+        <div className="px-8 h-full">
           <NavBar />
-          <Component {...pageProps} className="bg-base-300" />
+          <Component {...pageProps}/>
         </div>
       </ModalContext.Provider>
     </WalletProvider>
