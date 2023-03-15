@@ -13,7 +13,7 @@ export function NavBar() {
           <Image src="/logo.png" width={640} height={400} alt="logo" />
         </a>
       </div>
-        <div className="text-white" style={{marginTop: -120, marginBottom: 70}}>Welcome to The Lounge.
+        <div className="text-white" style={{marginTop: -120, marginBottom: 90}}>Welcome to The Lounge.
             Build out the lounge, lounge your lemur.</div>
       <AptosConnect />
     </nav>
