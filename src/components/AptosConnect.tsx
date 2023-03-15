@@ -11,7 +11,7 @@ export function AptosConnect() {
     <>
       {account?.address ? (
         <button
-          className="btn btn-primary w-48"
+          className="btn w-48"
           onClick={() => setModalState({ ...modalState, walletModal: true })}
           style={{
             textOverflow: "ellipsis",
