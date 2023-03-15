@@ -24,8 +24,9 @@ body {
   position: absolute;
   bottom: 150px;
   text-align: center;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin-left: 40px;
+}
+
+.social-box {
+  border-width: 1px;
+  border-color: white;
 }
